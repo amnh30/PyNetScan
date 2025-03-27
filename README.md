@@ -46,8 +46,8 @@ pip install python-nmap tabulate
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/network-device-scanner.git
-   cd network-device-scanner
+   git clone https://github.com/yourusername/PyNetScan.git
+   cd PyNetScan
    ```
 
 2. Install dependencies:
@@ -71,7 +71,7 @@ pip install python-nmap tabulate
 
 1. Run the script:
    ```bash
-   sudo python3 network_scanner.py
+   sudo python3 netscan.py
    ```
    - Use `sudo` on Linux/macOS or run as Administrator on Windows for full functionality.
    - Replace `python3` with `python` if that’s your system’s command for Python 3.
@@ -97,7 +97,7 @@ pip install python-nmap tabulate
 
 ### Example
 ```bash
-sudo python3 network_scanner.py
+sudo python3 netscan.py
 ```
 Select `1` for a standard scan. Output might look like:
 ```
@@ -162,9 +162,7 @@ In the README, I clarified that "pip" is Python's package installer, used to ins
 - `tabulate`: Formats the output into a neat table.
 
 ### Running the Code
-The script (`network_scanner.py`) is ready to use as provided. Save it in a file named `network_scanner.py`, install the prerequisites as outlined in the README, and run it with:
+The script (`netScan.py`) is ready to use as provided. Save it in a file named `netscan.py`, install the prerequisites as outlined in the README, and run it with:
 ```bash
 sudo python3    
 ```
-
-This README is structured to be professional, user-friendly, and informative for GitHub users, covering all necessary details about usage, dependencies, and functionality. Let me know if you'd like adjustments!
