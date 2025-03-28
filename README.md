@@ -1,5 +1,5 @@
 # Network Device Scanner
-<image src="Wallpaper.png" hight="70%" width="70%"/>
+<image src="Wallpaper.png" hight="70%" />
 A Python-based tool to scan and analyze devices on a local network using `nmap`. This script provides a menu-driven interface to perform standard, quick, detailed, or custom subnet scans, displaying device details such as IP addresses, MAC addresses, hostnames, vendors, operating systems, and open ports. Results are presented in a tabulated format and saved to a text file with a network topology map.
 
 ## Features
